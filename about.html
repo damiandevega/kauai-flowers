@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
   <link rel="stylesheet" href="css/style.css">
-  <title>Animal Hospital</title>
+  <title>Kauai Flowers</title>
 </head>
 
 <body>
@@ -267,8 +267,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9GS-_USyLcieHgThDGco_iJ9v6tGijqw&callback=initMap"
-          async defer></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9GS-_USyLcieHgThDGco_iJ9v6tGijqw&callback=initMap"
+          async defer></script> -->
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
@@ -279,24 +279,24 @@
       slideToScroll: 1
     });
 
-    var map;
+    // var map;
 
-    function initMap() {
-        var myLatLng = {lat: 40.861489, lng: -73.988194};
+    // function initMap() {
+    //     var myLatLng = {lat: 40.861489, lng: -73.988194};
 
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: myLatLng,
-            zoom: 18
-        });
+    //     map = new google.maps.Map(document.getElementById('map'), {
+    //         center: myLatLng,
+    //         zoom: 18
+    //     });
 
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Animal Hospital'
-        });
+    //     var marker = new google.maps.Marker({
+    //         position: myLatLng,
+    //         map: map,
+    //         title: 'Kauai Flowers'
+    //     });
 
-        marker.setMap(map);
-    }
+    //     marker.setMap(map);
+    // }
   </script>
 </body>
 

@@ -51,12 +51,12 @@ body {
   color:#F0B7CD;
   text-align: center;
   margin-top: 35vh;
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .bgimage p {
   text-align: center;
-  padding: 10px;
+  padding-bottom: 20px;
   /* margin-left: 15%;
   margin-right: 15%; */
 }

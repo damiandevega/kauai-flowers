@@ -181,6 +181,14 @@
                   </a>
             </div>
 
+      </div>
+            <div class="row m-4 text-center">
+                <div class="col-md-12">
+                  <a href="index.html">
+                      <button class="btn" style="color: white; background-color: #DE98B2">Back</button>
+                  </a>
+                </div>
+              </div>
             
       </div>
   </section>
@@ -280,17 +288,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>-->
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9GS-_USyLcieHgThDGco_iJ9v6tGijqw&callback=initMap"
-          async defer></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9GS-_USyLcieHgThDGco_iJ9v6tGijqw&callback=initMap"
+          async defer></script> -->
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
 
     // Configure Slider
-    $('.carousel').carousel({
-      interval: 6000,
-      pause: 'hover'
-    });
+    // $('.carousel').carousel({
+    //   interval: 6000,
+    //   pause: 'hover'
+    // });
 
     // Lightbox Init
     $(document).on('click', '[data-toggle="lightbox"]', function (event) {
@@ -298,24 +306,24 @@
       $(this).ekkoLightbox();
     });
 
-    var map;
+    // var map;
 
-    function initMap() {
-        var myLatLng = {lat: 40.861489, lng: -73.988194};
+    // function initMap() {
+    //     var myLatLng = {lat: 40.861489, lng: -73.988194};
 
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: myLatLng,
-            zoom: 18
-        });
+    //     map = new google.maps.Map(document.getElementById('map'), {
+    //         center: myLatLng,
+    //         zoom: 18
+    //     });
 
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Animal Hospital'
-        });
+    //     var marker = new google.maps.Marker({
+    //         position: myLatLng,
+    //         map: map,
+    //         title: 'Kauai Flowers'
+    //     });
 
-        marker.setMap(map);
-    }
+    //     marker.setMap(map);
+    // }
 
     // Video Play
     // $(function () {
