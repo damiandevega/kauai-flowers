@@ -30,7 +30,7 @@ body {
   max-height: 100%;
   width: 100%;
   /* height: 550px; */
-  background: url('../img/Kylie\'s\ Webpage-01.png');
+  background: url('../img/landing-cover.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -40,8 +40,8 @@ body {
 
 #welcome-div {
   background-color: white;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   border-radius: 2%;
   /* border: 1px solid #F0B7CD;
   border-radius: 2%; */
@@ -91,6 +91,20 @@ body {
   background-size: cover;
 }
 
+#home-heading-2 {
+  /*position: relative;*/
+  position: static;
+  min-height: 300px;
+  background: url('../img/Kauai Flowers/4 Ceremonies - Best/Flower Cirle at Shipwrecks2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  background-position: center;
+  background-size: cover;  
+  margin-bottom: 60px;
+}
+
 .dark-overlay {
   position: absolute;
   top: 0;
@@ -119,8 +133,9 @@ body {
 }
 
 #page-header {
+  margin-top: 130px;
   height: 200px;
-  background: url('../img/Kylie\'s\ Webpage-01.png');
+  background: url('../img/landing-cover.png');
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat; /* just testing for windows browsers */
@@ -131,7 +146,7 @@ body {
 }
 
 .about-img {
-  margin-top: -50px;
+  margin-top: -130px;
 }
 
 #faq .card {
@@ -165,17 +180,17 @@ body {
 }
 
 @media (max-width: 600px) {
-  #home-heading {
+  /* #home-heading {
     display: none;
-  }
+  } */
 
-  #page-header {
+  /* #page-header {
     display: none;
-  }
+  } */
 
-  #video-play {
+  /* #video-play {
     display: none;
-  }
+  } */
 
   #phone-social {
     text-align: center;
