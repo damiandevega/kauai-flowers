@@ -184,10 +184,14 @@ body {
 }
 
 @media (max-width: 600px) {
-  /* #home-heading {
+  #home-heading {
     display: none;
-  } */
+  }
 
+  #home-heading-2 {
+    display: none;
+  }
+  
   /* #page-header {
     display: none;
   } */
