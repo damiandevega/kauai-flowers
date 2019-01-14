@@ -189,18 +189,10 @@ body {
   object-position: 50% 50%;
 }
 
-/* .highlights-image {
+.highlights-image {
   height: 190px;
-  object-fit: cover; 
-  object-position: 50% 50%;
-} */
-
-@media (max-width: 767px) {
-  /* .highlights-image {
-    width: 60%;
-    margin-left: 20%;
-    text-align: center;
-  } */
+  width: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 600px) {
@@ -219,10 +211,4 @@ body {
   #phone-number {
     display: none;
   }
-
-  /* .highlights-image {
-    width: 60%;
-    margin-left: 20%;
-    text-align: center;
-  } */
 }
