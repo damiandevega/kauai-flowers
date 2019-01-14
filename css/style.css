@@ -174,13 +174,33 @@ body {
 
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
-#map {
+/* #map {
   height: 530px;
   width: 100%;
-}
+} */
 
 #phone-number {
   text-align: right;
+}
+
+.occasions-image {
+  max-height: 420px; 
+  object-fit: cover; 
+  object-position: 50% 50%;
+}
+
+/* .highlights-image {
+  height: 190px;
+  object-fit: cover; 
+  object-position: 50% 50%;
+} */
+
+@media (max-width: 767px) {
+  /* .highlights-image {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+  } */
 }
 
 @media (max-width: 600px) {
@@ -199,4 +219,10 @@ body {
   #phone-number {
     display: none;
   }
+
+  /* .highlights-image {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+  } */
 }
