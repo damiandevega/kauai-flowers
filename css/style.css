@@ -34,7 +34,8 @@ body {
   max-height: 100%;
   width: 100%;
   /* height: 550px; */
-  background: url('../img/landing-cover.jpg');
+  /* background: url('../img/landing-cover.jpg'); */
+  background: url('../img/Kauai Flowers/4 Ceremonies - Best/Flower Cirle at Shipwrecks2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -43,12 +44,11 @@ body {
 }
 
 #welcome-div {
-  background-color: white;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
   margin-left: 5%;
   margin-right: 5%;
   border-radius: 25px;
-  /* border: 1px solid #F0B7CD;
-  border-radius: 2%; */
 }
 
 .bgimage h5 {
