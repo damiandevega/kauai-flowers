@@ -212,4 +212,14 @@ body {
   #phone-number {
     display: none;
   }
+
+  #page-header {
+    margin-top: 50px;
+    height: 0;
+    width: 0;
+  }
+
+  #about {
+    text-align: center;
+  }
 }
