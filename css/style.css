@@ -54,7 +54,7 @@ body {
 .bgimage h5 {
   color:#F0B7CD;
   text-align: center;
-  margin-top: 35vh;
+  margin-top: 45vh;
   padding-top: 10px;
 }
 
@@ -196,7 +196,17 @@ body {
   object-fit: cover;
 }
 
+@media (max-width: 1024px) {
+  .bgimage h5 {
+    margin-top: 35vh;
+  }
+}
+
 @media (max-width: 600px) {
+  .bgimage h5 {
+    margin-top: 25vh;
+  }
+
   #home-heading {
     display: none;
   }
